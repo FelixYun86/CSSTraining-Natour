@@ -40,6 +40,15 @@
     }
   }
 
+  &--green {
+    background: $color-primary-light;
+    color: $color-white;
+
+    &::after {
+      background: $color-primary-light;
+    }
+  }
+
   &::after {
     content: "";
     display: inline-block;
